@@ -54,7 +54,7 @@ export default function Home() {
         <View style={styles.content}>
           <StatusBar barStyle={"light-content"} />
           <View style={styles.header}>
-            <Text style={styles.title}> Conversor de Moedas</Text>
+            <Text style={styles.title}> Conversor de Moeda</Text>
             <Text style={styles.subTitle}>Converta o Valor em Diferente Moedas</Text>
           </View>
           <View style={styles.card}>
