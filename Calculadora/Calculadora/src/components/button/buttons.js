@@ -1,11 +1,17 @@
 import { Text, View, TextInput, TouchableOpacity } from "react-native";
 import { styles } from "./style.js";
-export function Button({ numbers }) {
+export function Button({ number }) {
   return (
-    <TouchableOpacity style={styles.button}>
-      <Text style={styles.buttonText}>
-        {numbers.values} {numbers.codes}
-      </Text>
+    <TouchableOpacity style={styles.buttonNumbers}>
+      <Text style={styles.buttonText}>{number.values}</Text>
+    </TouchableOpacity>
+  );
+}
+
+export function CodeButton({ operators }) {
+  return (
+    <TouchableOpacity style={styles.buttonCodes}>
+      <Text style={styles.codeText}>{operators.codes}</Text>
     </TouchableOpacity>
   );
 }

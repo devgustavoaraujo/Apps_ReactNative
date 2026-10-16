@@ -13,4 +13,7 @@ export const numbersButton = [
   { codes: "-" },
   { codes: "*" },
   { codes: "/" },
+  { codes: "=" },
+  { codes: "<" },
+  { codes: "C" },
 ];
