@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  min-width: 100vh;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#containerDisplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menuText {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+#send {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  border: transparent;
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.319);
+}
+
+#send:active {
+  background-color: rgba(0, 255, 0, 0.291);
+}
+
+#textInput {
+  font-family: "Poppins", sans-serif;
+  width: 350px;
+  height: 50px;
+
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.319);
+
+  border-radius: 10px;
+  border: transparent;
+  text-align: center;
+}
+
+#textInput:focus {
+  background-color: rgba(0, 255, 0, 0.33);
+}
+
+#textInput:focus {
+  outline: 0;
+}
+
+#containerCard {
+  width: 400px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.215);
+}
+
+#textDiv {
+  display: block;
+}
+
+#titulo {
+  font-size: 18px;
+  border-bottom: 1px solid black;
+}
+
+#text {
+  font-size: 14px;
+}
+
+#textMain {
+  color: red;
+}
+
+#actionButtons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+#check {
+  width: 20px;
+}
+
+#concluir {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 20px;
+  width: 20px;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+#trash {
+  width: 20px;
+}
+
+#remove {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent;
+  height: 20px;
+  width: 20px;
+  border-color: transparent;
+}
+
+#forms {
+  background-color: rgba(0, 255, 0, 0.33);
+}
+
+#messageRemove {
+  display: none;
+  position: fixed;
+  width: 100vh;
+  height: 100vh;
+  height: 180px;
+  bottom: 40%;
+  backdrop-filter: blur(100px);
+  z-index: 999;
+  transition: opacity 0.1s ease;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.215);
+}
+
+#messageRemove:active {
+  opacity: 1;
+}
+
+#containerMessage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#buttonMessage {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 25px;
+  gap: 10px;
+}
+
+#cancelar:active {
+  transform: scale(1.1);
+}
+
+#confirmar:active {
+  transform: scale(1.1);
+}
+
+#close:active {
+  transform: scale(1.1);
+}
+
+#subtitulo {
+  padding-left: 20px;
+  margin-top: -20px;
+}
+
+#confirmar {
+  width: 150px;
+  height: 40px;
+
+  border-color: transparent;
+}
+
+#cancelar {
+  width: 150px;
+  height: 40px;
+  border-color: transparent;
+}
+
+#topMessage {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#closeImage {
+  width: 10px;
+}
+
+#close {
+  cursor: pointer;
+}
+
+#concluir:active {
+  transform: scale(1.4);
+}
+#remove:active {
+  transform: scale(1.2);
+}
+
+#imageButton {
+  width: 20px;
+}
+
+#send:active #imageButton {
+  transform: scale(1.4);
+}
